@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Rural Healthcare AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>Rural Healthcare AI</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <section class="content">
+        <div class="hero">  
+            <h2>AI Healthcare Support for Rural Communities</h2>
+            <p>Enter your symptoms or health queries below to receive instant, reliable, and localized guidance.</p>
+        </div>
+        <div class="ai-tool-container">
+            <h3>Symptom Checker</h3>
+            <form id="symptom-form">
+                <label for="symptoms-input">Describe your symptoms (e.g., "I have a fever and headache")</label>
+                <textarea id="symptoms-input" rows="4" placeholder="Enter symptoms here..." required></textarea>
+                <button type="submit" class="btn primary-btn">Get AI Guidance</button>
+            </form>
+            <div id="ai-results" class="results-box">
+                </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Rural Healthcare AI</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Rural Healthcare AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>Rural Healthcare AI</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="content">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label>Name</label>
+      <input type="text" required>
+      <label>Email</label>
+      <input type="email" required>
+      <label>Message</label>
+      <textarea required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div style="margin-top:40px; text-align:center;">
+      <p><strong>Email:</strong> ruralhealthai@gmail.com</p>
+      <p><strong>Phone:</strong> +91 98485 96430</p>
+      <p><strong>Address:</strong> Hyderabad, India</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Rural Healthcare</p>
+  </footer>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      alert("✅ Thank you! Your message has been sent.");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
